@@ -1,11 +1,9 @@
 .container {
   display: grid;
   grid-gap: 3px;
-  grid-template-rows: repeat(5, 100px);
+  grid-template-rows: 50px 200px 50px;
   grid-template-areas:
     "menu header header header header  "
-    "menu content content content content"
-    "menu content content content content"
     "menu content content content content"
     "menu footer footer footer footer";
 }
