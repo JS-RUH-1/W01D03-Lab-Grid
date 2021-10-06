@@ -3,19 +3,20 @@
     gap: 2px;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: 
+            "menu head"
+            "menu content"
+            "foot foot";
 }
 .menu {
-    grid-column: 1;
-    grid-row:  1 / 3;
+    grid-area: menu;
 }
 .content {
-    grid-column: 2;
-    grid-row: 2;
+    grid-area: content;
 }
 .header {
-    grid-column: 2 / 3;
+    grid-area: head;
 }
 .footer {
-    grid-column: 1 / 3;
-    grid-row: 3;
+    grid-area: foot;
 }
