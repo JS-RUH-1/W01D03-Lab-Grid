@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.header {
+  grid-column: 2 / 6;
+  grid-row: 1;
+}
+
+.menu {
+  grid-row: 1;
+  grid-row: 1 / 6;
+}
+
+.content {
+  grid-column: 2 / 6;
+  grid-row: 2 / 6;
+}
+
+.footer {
+  grid-column: span 5;
+  grid-row: 6;
+}
