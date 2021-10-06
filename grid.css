@@ -1,0 +1,33 @@
+.container{
+display:grid;
+width: 750px;
+height: 600px;
+grid-template-columns:200px 1fr 1fr 1fr;
+grid-template-rows: 100px  1fr 2fr 100px;
+grid-template-areas:
+"men head head head"
+"men cont cont cont"
+"men cont cont cont"
+"foot foot foot foot";
+grid-gap: 5px;
+}
+.header {
+    grid-area: head;
+    
+  }
+  
+  .menu {
+    grid-area: men;
+    
+  }
+  
+  .content {
+    grid-area: cont;
+ 
+  }
+  
+  .footer {
+    grid-area: foot;
+ 
+  }
+  
