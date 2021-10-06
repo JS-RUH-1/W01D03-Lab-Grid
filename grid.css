@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 7fr ;
+    grid-template-rows: 100px 400px 100px;
+    grid-gap: 4px;
+
+  }
+  .header {
+    grid-column-start: 2;
+  }
+  .menu{
+      grid-row-start: 1;
+      grid-row-end: 3;
+  }
+  .content{
+      grid-column-start:2 ;
+      grid-row-start:2 ;
+  }
+
+  .footer{
+      grid-row-start: 3;
+      grid-column-end: 3;
+      grid-column-start: 1;
+
+  }
