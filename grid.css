@@ -19,3 +19,8 @@
 .footer {
   grid-area: footer;
 }
+.padd {
+  text-align: center;
+  margin-top: 10%;
+  padding: 0 10%;
+}
